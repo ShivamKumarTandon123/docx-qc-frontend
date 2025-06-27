@@ -1,4 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DOCX Quality Control Checker Frontend
+
+A modern Next.js 14 (App Router, TypeScript, Tailwind CSS) frontend for the DOCX QC Checker API.
+
+## Features
+- Upload .docx files and get instant QC analysis
+- Beautiful, responsive UI (Google Fonts, Tailwind, Framer Motion)
+- API integration with Flask backend
+- Health check page
+- Dark mode support
+- Toast notifications, loading states, error handling
+
+## Setup
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Configure backend URL:**
+   - Edit `.env.local` (already created):
+     ```
+     NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
+     ```
+3. **Run the app:**
+   ```bash
+   npm run dev
+   ```
+
+## Folder Structure
+- `src/app/` — App Router pages
+- `src/components/` — UI components
+- `src/lib/` — API utilities
+- `src/types/` — TypeScript types
+
+## Requirements
+- Node.js 18+
+- Backend Flask API running at `http://localhost:8000`
+
+---
+
+Made with ❤️ using Next.js, Tailwind, and TypeScript.
 
 ## Getting Started
 
