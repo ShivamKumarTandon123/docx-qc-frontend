@@ -1,7 +1,7 @@
 "use client";
 import { useRef, useState } from "react";
 import api from "@/lib/api";
-import { FileCheckResponse} from "@/types/api";
+import { FileCheckResponse, HTTPValidationError } from "@/types/api";
 import LoadingSpinner from "./LoadingSpinner";
 import Toast from "./Toast";
 
